@@ -27,7 +27,8 @@ z:
 
 ```python
 def run_experiment_with_these(x, y, z):
-    pass
+    # stuff here
+    return [stats]
 
 def measure_performance(stats):
     pass
