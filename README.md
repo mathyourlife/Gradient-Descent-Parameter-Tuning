@@ -31,7 +31,8 @@ def run_experiment_with_these(x, y, z):
     return [stats]
 
 def measure_performance(stats):
-    pass
+    # other stuff here
+    return lower_is_better_score
 
 domains = [
     ['x', -10, 10],  # search for best x in -10 <= x <= 10
